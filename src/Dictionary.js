@@ -10,6 +10,7 @@ export default function Dictionary() {
 
     function handleResponse(response) {
         setSearchResults(response.data);
+        
     }
 
     function search(event){
@@ -22,7 +23,9 @@ export default function Dictionary() {
         setWord(event.target.value);
     }
 
-    if (searchResults) {return (
+    if (searchResults) {
+        console.log(searchResults);
+        return (
         <div>
         <h1>Dictionary</h1>
         <p>Look up a word:</p>

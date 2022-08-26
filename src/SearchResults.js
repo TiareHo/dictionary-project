@@ -2,21 +2,22 @@ import React from "react";
 import Meaning from "./Meaning";
 
 export default function SearchResults (props) {
-    console.log(props.data);
     
     let searchedWord=(props.data[0].word)
     let phonetic=(props.data[0].phonetic)
-    let meaning=(props.data.meanings)
+  
    
   
  
  
    
-    if (props.data) { return(
+    if (props.data) { 
+        
+        return(
         <div>
             <p>{searchedWord}: {phonetic} </p>
             <div>
-                    <Meaning meaning={meaning} />
+                    <Meaning meaning={props.data[0].meanings} />
             
             </div>
         </div>

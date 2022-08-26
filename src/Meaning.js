@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function Meaning(props) {
-    console.log(props.meanings);
+    let definition =(props.meaning[0].definitions[0].definition);
   
     return (
-       <div> hello </div>
+       <div> {definition} </div>
     );
 }
