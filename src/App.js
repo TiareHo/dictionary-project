@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
       </header>
       <Dictionary />
-      <footer>This is a working project coded by Tiare. It is open-sourced via GitHub and hosted on Netlify. Enjoy!</footer>
+      <footer className="mt-5">This is a working project coded by <a href="https://www.linkedin.com/in/tiare-elise/" rel="noopener noreferrer" alt="Tiare">Tiare</a>. It is open-sourced via <a href="https://github.com/TiareHo/dictionary-project" rel="noopener noreferrer" alt="Tiare's GitHub">GitHub</a> and hosted on <a href="https://lambent-gecko-9837c1.netlify.app/" rel="noopener noreferrer" alt="Tiare's Netfily">Netlify</a>. Enjoy!</footer>
       </div>
     </div>
   );
