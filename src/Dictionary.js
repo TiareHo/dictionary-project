@@ -24,7 +24,7 @@ export default function Dictionary() {
     }
 
     if (searchResults) {
-        console.log(searchResults);
+        
         return (
         <div>
         <h1>Dictionary</h1>
@@ -32,7 +32,7 @@ export default function Dictionary() {
         <form onSubmit={search}>
             <input type="search" onChange={handleWordChange}></input>
         </form>
-        <SearchResults data={searchResults} />
+        <SearchResults searchResults={searchResults} />
         </div>
     );} else {return (
         <div>
