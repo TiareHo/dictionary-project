@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
       </header>
       <Dictionary />
-      <footer>This is a working project coded by Tiare, open-sourced via GitHub and hosted on Netlify</footer>
+      <footer>This is a working project coded by Tiare. It is open-sourced via GitHub and hosted on Netlify. Enjoy!</footer>
       </div>
     </div>
   );
