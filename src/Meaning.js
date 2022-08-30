@@ -14,9 +14,8 @@ export default function Meaning(props) {
           <em>{partOfSpeech}</em>
           <div> {definition} </div>
           <Example example={example}/>
-
-
           <Synonyms synonyms={synonyms} />
+          <br />
        </div>
     );
 }
