@@ -11,18 +11,16 @@ export default function SearchResults (props) {
  if (props.searchResults) { 
         return(
         <div>
-            <p>{searchedWord}: </p>
+            <h3>{searchedWord}: </h3>
             <div>
             {props.searchResults[0].phonetics.map(function(phonetics, index){
                 return (
-                    <div key={index}>
+                    <span key={index}>
                       <Phonetic phonetics={phonetics} />
-                    </div>
+                    </span>
                 );
             })}
             </div>
-
-
 
             <div>
                {props.searchResults[0].meanings.map(function(meaning, index) {

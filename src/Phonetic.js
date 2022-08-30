@@ -5,7 +5,7 @@ export default function Phonetic(props) {
     console.log(props.phonetics);
     if (props.phonetics) {return (
         <span> 
-            {props.phonetics.text}
+            {props.phonetics.text}&nbsp;&nbsp;
             <ReactAudioPlayer src={props.phonetics.audio} autoPlay controls />
        
         </span>

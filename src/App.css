@@ -1,3 +1,15 @@
 a {
     color:pink;
 }
+
+body {
+    background-image:url("images/wide-tea-book.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@media (max-width: 700px) {
+    body{
+    background-image:url("images/tea-book.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}}
