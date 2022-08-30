@@ -28,5 +28,5 @@ export default function SearchResults (props) {
             
             </div>
         </div>
-    );} else {return ("Hmmm... try another word.");}
+    );} else {return ("Hmmm... try searching another word.");}
 }
