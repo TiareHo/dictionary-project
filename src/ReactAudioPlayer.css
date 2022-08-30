@@ -1,0 +1,10 @@
+audio {
+    width: 200px;
+}
+
+button {
+    margin: 1px;
+    border-radius: 15px;
+    border: rgb(243, 215, 219);
+    background-color: pink;
+}
