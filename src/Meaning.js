@@ -1,5 +1,6 @@
 import React from "react";
 import Synonyms from "./Synonyms";
+import Example from "./Example";
 
 export default function Meaning(props) {
     console.log(props.meaning);
@@ -12,7 +13,7 @@ export default function Meaning(props) {
        <div className="meaning">
           <em>{partOfSpeech}</em>
           <div> {definition} </div>
-          <em>{example}</em>
+          <Example example={example}/>
 
 
           <Synonyms synonyms={synonyms} />
