@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import "./Dictionary.css"
 import SearchResults from "./SearchResults";
+import Footer from "./Footer";
 
 export default function Dictionary() {
 
@@ -26,21 +27,24 @@ export default function Dictionary() {
     if (searchResults) {
         
         return (
-        <div>
+        <div className="container">
         <h1>Dictionary</h1>
         <p>Look up a word:</p>
         <form onSubmit={search}>
             <input type="search" onChange={handleWordChange}></input>
         </form>
         <SearchResults searchResults={searchResults} />
+        
         </div>
     );} else {return (
-        <div>
+        <div><div className="container">
         <h1>Dictionary</h1>
         <p>Look up a word:</p>
         <form onSubmit={search}>
             <input type="search" onChange={handleWordChange}></input>
         </form>
+        </div>
+        <Footer />
         </div>
     );} 
 }

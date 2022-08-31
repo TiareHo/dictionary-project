@@ -11,15 +11,6 @@ body {
     
 }
 
-footer {
-   
-   bottom:0;
-   padding-top: 5px;
-   background-color: rgba(255, 255, 255, 0.618);
-   text-align: center;
-   
-   
-}
 @media (max-width: 900px) {
     body{
     background-image:url("images/french-flower.jpg");

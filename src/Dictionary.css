@@ -18,6 +18,13 @@ form input {
     text-indent: 5%;
     margin-bottom: 30px;
 }
+footer {
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.618);
+    text-align: center;
+    width: 100%; 
+    border-radius:3px;
+ }
 @media (max-width: 900px) {
     h1 {
         color:white;
