@@ -7,8 +7,7 @@ body {
     background-image:url("images/wide-tea-book.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: rgba(128, 128, 128);
-    
+    background-color:  #b8aa9f;
 }
 
 @media (max-width: 900px) {
@@ -16,10 +15,12 @@ body {
     background-image:url("images/French.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: rgb(179, 167, 180);
 }}
 @media (max-width: 600px) {
     body{
     background-image:url("images/Teacup.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: rgb(128, 128, 128);
 }}
