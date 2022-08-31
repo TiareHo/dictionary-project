@@ -1,20 +1,28 @@
 a {
-    color:pink;
+    color:rgb(248, 103, 128);
 }
 
 body {
     background-image:url("images/wide-tea-book.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    box-shadow: 0 0 20px white inset;
+    
 }
 
 footer {
-   position:absolute;
-   bottom:10%;
+   position:relative;
+   padding-top: 10px;
    height: 5px;
    
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+    body{
+    background-image:url("images/french-flower.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}}
+@media (max-width: 600px) {
     body{
     background-image:url("images/tea-book.jpg");
     background-size: 100%;
