@@ -7,19 +7,19 @@ body {
     background-image:url("images/wide-tea-book.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: rgba(128, 128, 128, 0.157);
+    background-color: rgba(128, 128, 128);
     
 }
 
 @media (max-width: 900px) {
     body{
-    background-image:url("images/french-flower.jpg");
+    background-image:url("images/French.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }}
 @media (max-width: 600px) {
     body{
-    background-image:url("images/tea-book.jpg");
+    background-image:url("images/Teacup.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }}
