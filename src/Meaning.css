@@ -7,7 +7,14 @@ div.meaning
         display:block; 
         margin: 15px auto; 
         max-width: 70%;
+        margin-bottom: 35px;
     
+}
+
+div.part-of-speech {
+    font-weight: bold;
+    color:rgb(189, 90, 106);
+    font-size: 20px;
 }
 
 @media (max-width: 600px) {

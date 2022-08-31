@@ -16,14 +16,19 @@ form input {
     color: pink;
     margin-left: 10px;
     text-indent: 5%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 footer {
-    padding-top: 5px;
+    
     background-color: rgba(255, 255, 255, 0.618);
     text-align: center;
-    width: 100%; 
-    border-radius:3px;
+    max-width: 100%; 
+    border-radius:5px;
+    font-size: small;
+    display:block;
+    margin: 0 auto;
+  
+
  }
 @media (max-width: 900px) {
     h1 {

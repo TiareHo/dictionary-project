@@ -12,7 +12,7 @@ export default function Meaning(props) {
   
     return (
        <div className="meaning">
-          <em>{partOfSpeech}</em>
+          <div className="part-of-speech">{partOfSpeech}</div>
           <div> {definition} </div>
           
           <div class="mt-3"><Example example={example}/></div>
