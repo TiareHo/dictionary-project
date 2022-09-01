@@ -7,7 +7,7 @@ import Phonetic from "./Phonetic";
 
 
 export default function SearchResults (props) {
-    console.log(props.searchResults);
+   
     
     let searchedWord=(props.searchResults[0].word);
 

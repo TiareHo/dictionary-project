@@ -51,8 +51,13 @@ export default function Dictionary() {
         <Images images={images} />
         </div>
 
-    );} else {return (
-        <div><div className="container">
+    );} 
+    
+        else {
+        
+        return (
+        <div> 
+        <div className="container">
         <h1>Dictionary</h1>
         <p>Look up a word:</p>
         <form onSubmit={search}>

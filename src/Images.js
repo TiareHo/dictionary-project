@@ -1,7 +1,7 @@
 
 
 export default function Images(props){
-    console.log(props.images);
+    
     if (props.images){ return (
         <div className="row">
             <div className="col-5 m-3">
