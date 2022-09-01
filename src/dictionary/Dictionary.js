@@ -2,8 +2,9 @@ import React, {useState} from "react";
 import axios from "axios";
 import "./Dictionary.css"
 import SearchResults from "./SearchResults";
-import Images from "./Images";
-import Footer from "./Footer";
+import Images from "./pictionary/Images";
+
+
 
 export default function Dictionary() {
 
@@ -64,7 +65,7 @@ export default function Dictionary() {
             <input type="search" onChange={handleWordChange}></input>
         </form>
         </div>
-        <Footer />
+       
         </div>
     );} 
 }
