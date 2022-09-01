@@ -10,7 +10,7 @@ export default function Footer() {
             <a href="https://github.com/TiareHo/dictionary-project" rel="noopener noreferrer" alt="Tiare's GitHub"> GitHub</a> 
             {" "}and hosted on{" "} 
             <a href="https://lambent-gecko-9837c1.netlify.app/" rel="noopener noreferrer" alt="Tiare's Netfily"> Netlify</a>
-            . Enjoy!
+            . Images courtesy of <a href="https://www.pexels.com/" rel="noopener noreferrer" alt="image stock">Pexels</a>.{" "}Enjoy!
         </footer>
     );
 }
