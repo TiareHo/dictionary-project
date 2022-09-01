@@ -26,6 +26,7 @@ export default function SearchResults (props) {
                 );
              })}
               </div> 
+              <button>pictionary↗</button>
              </div>
 
             <div>

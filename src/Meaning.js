@@ -4,7 +4,7 @@ import Example from "./Example";
 import "./Meaning.css";
 
 export default function Meaning(props) {
-    console.log(props.meaning);
+   
     let definition =(props.meaning.definitions[0].definition);
     let partOfSpeech=(props.meaning.partOfSpeech);
     let example=(props.meaning.definitions[0].example);
