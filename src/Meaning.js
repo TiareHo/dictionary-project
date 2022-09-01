@@ -15,9 +15,9 @@ export default function Meaning(props) {
           <div className="part-of-speech">{partOfSpeech}</div>
           <div> {definition} </div>
           
-          <div class="mt-3"><Example example={example}/></div>
+          <div className="mt-3"><Example example={example}/></div>
           
-          <div class="mt-3"><Synonyms synonyms={synonyms} /></div>
+          <div className="mt-3"><Synonyms synonyms={synonyms} /></div>
           
        </div>
     );
